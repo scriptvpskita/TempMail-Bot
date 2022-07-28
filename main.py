@@ -24,11 +24,9 @@ while True:
 Hey.,
 Welcome to MysteryMail Bot
 Usage:
-➪ To Generate emails by clicking on the button "Generate email"
-➪ To refresh your inbox click on the button "Refresh inbox"
-➪ After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
-                              
-Dev : @riz4d
+ To Generate emails by clicking on the button "Generate email"
+ To refresh your inbox click on the button "Refresh inbox"
+ After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
 ''',
                              reply_markup=keyboard)
 
@@ -107,5 +105,3 @@ How Mystery Mail Become Safer You?
         bot.polling(none_stop=True, interval=1, timeout=5000)
     except BaseException:
         pass
-        
-# Stay tuned for more : Instagram @riz.4d
